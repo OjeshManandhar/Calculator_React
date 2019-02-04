@@ -1,32 +1,44 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+body {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+
+  padding: 50px;
+}
+
+table, tr, td {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+table {
+  margin: 0px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td {
+  width: 50px;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+  text-align: right;
+  font-size: 2em;
+  resize: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  width: 90%;
+  height: 90%;
+  margin: 5px;
+  /*
+  padding: 5px;
+  margin: 10px;
+  */
+  text-align: center;
+  font-size: 1.5em;
 }
