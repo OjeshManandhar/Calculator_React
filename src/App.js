@@ -5,7 +5,7 @@ import Button from './Button';
 class App extends Component {
 	render() {
 		return (
-			<div class="App">
+			<div className="App">
 				<table>
 					<tbody>
 						<tr>
@@ -23,7 +23,7 @@ class App extends Component {
 							<td><Button>7</Button></td>
 							<td><Button>8</Button></td>
 							<td><Button>9</Button></td>
-							<td rowspan="2"><Button>+</Button></td>
+							<td rowSpan="2"><Button>+</Button></td>
 						</tr>
 						<tr>
 							<td><Button>4</Button></td>
@@ -34,10 +34,10 @@ class App extends Component {
 							<td><Button>1</Button></td>
 							<td><Button>2</Button></td>
 							<td><Button>3</Button></td>
-							<td rowspan="2"><Button>=</Button></td>
+							<td rowSpan="2"><Button>=</Button></td>
 						</tr>
 						<tr>
-							<td colspan="2"><Button>0</Button></td>
+							<td colSpan="2"><Button>0</Button></td>
 							<td><Button>.</Button></td>
 						</tr>
 					</tbody>
