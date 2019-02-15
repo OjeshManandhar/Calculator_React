@@ -1,3 +1,29 @@
+# Calculator React
+Calculator made using React.JS
+
+The calculator is same as the one in [Calculator JS](https://github.com/OjeshManandhar/Calculator_JS). Just made this using React.JS for practice.
+
+## Cloning and Installation
+- To clone, run the following command
+  ```shell
+  git clone https://github.com/OjeshManandhar/Calculator_React.git
+  ```
+- Then install the required dependencies
+  ```shell
+  npm install
+  ```
+- To run the web app
+  ```shell
+  npm start
+  ```
+- [localhost:3000](http://localhost:3000/) will open automatically
+
+## Note
+*this.setState()* did not change the state when called but changed *this.state* after the function colpletely executed. Do if I needed to change the value of *this.state* more than once, then it would not have worked. So I copied the value of *this.state* to a variable *state* at the beginning of the function and used *state* to carry out calculation and then at the end of the function, I called *this.setState(state)* with *state* as argument to save the new value of *state* to *this.state*.
+
+---
+
+# Details from creat-react-app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
